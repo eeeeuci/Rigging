@@ -12,12 +12,25 @@
 - ダウンロードしたモデリングにあまりにもTriangle polygonが多かったためこれらを探し、直すためこのようなツールを作りました。
 ### How to work?
 #### CreatFKController
-1. CircleControllerを付けたいJointをSelectします。
-2. 
-
+1. CircleControllerを付けたいJoint達をSelectします。
+2. Scriptを実行させます。
+3. orientconstraintまで適用されているControllerがJointにConstraintされました。
+#### AutoControllerChaser
+1. 自分が使いたいFKControllerを一つ作ります。
+2. 作ったControllerとJointをSeletします。
+3. Scriptを実行させます。
+(カスタマイズしたControllerは必ず(0,0,0)にいなければうまく起動しません)
+#### TrianglePolygonFinder
+1. TrianglePolygonを探したいModelingをSelectします。
+2. Scriptを実行させます。
+3. Serch Triangleをクリックします。
+4. Triangle Polygonと共有するEdgeを持っているPolygonを同時に見せてくれます。自動的にIsolateされますので直した後、Isolate seletを解除します。これでTirangle polygonをもっと簡単に直すことができます。
 ### Demo
+#### CreatFKContoller
+![Joint1]https://raw.githubusercontent.com/eeeeuci/Rigging/main/img/Joint1.png
+#### AutoControllerChaser
 
-![screenshot1](https://raw.githubusercontent.com/eeeeuci/Rigging/main/img/screenshot1.png)
+#### TrianglePolygonFinder
 
 ### License
 MIT
