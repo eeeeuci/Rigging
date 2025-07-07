@@ -31,8 +31,15 @@
 ![Joint1](https://github.com/user-attachments/assets/02234775-4ccd-4b48-a307-f5ede2e37c86)
 ![Joint2](https://github.com/user-attachments/assets/563838b0-3377-4a76-9db6-6d00a4320c96)
 #### AutoControllerChaser
-
+![Atrribute](https://github.com/user-attachments/assets/92b2e12f-5685-479f-91b8-23a31a2f7887)
+![UI](https://github.com/user-attachments/assets/8c3d4659-7565-4c24-89fc-d4a58f4d611f)
+![Chaser](https://github.com/user-attachments/assets/9b79b931-1d50-463e-a6c0-56281c23f4bc)
+- 左はCircle、右はSquarでControllerを付けた場合。
 #### TrianglePolygonFinder
-
+![Trianglemodeling](https://github.com/user-attachments/assets/a6f48ca9-86c9-4db3-8ee7-b0ce1529ebe4)
+![UI2](https://github.com/user-attachments/assets/fc704e35-b215-4d53-bdab-c385fb83e223)
+![Trianglemodeling2](https://github.com/user-attachments/assets/127e9897-90ce-45fe-be86-9da897c880bb)
+![UI3](https://github.com/user-attachments/assets/856b2e57-decb-4ee6-88c6-0d62ed55dea5)
+![trianglemodeling3](https://github.com/user-attachments/assets/2dad0f7f-f64b-4231-b3d5-b4e4d02146b0)
 ### License
 MIT
