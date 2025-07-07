@@ -5,7 +5,7 @@
 - reateFKControllerツールはSelectされているJointに自動的にCircleのControllerを付けてくれる基礎的なToolです。
 - Pythonを学び始め一番最初に作ったToolです。
 #### AutoControllerChaser
-- AutoControllerChaserツールは自分がカスタマイズしたControllerを選択したJointに自動的に付けてくれるToolです。特徴としては、Joint自体にTranslate、Radius、Scaleに数値が入ってもアニメーションを付けるには問題ないようにしました。
+- AutoControllerChaserツールはControllerを選択してJointに自動的に付けてくれるToolです。特徴としては、Joint自体にTranslate、Radius、Scaleに数値が入ってもアニメーションを付けるには問題ないようにしました。
 - ダウンロードしたモデリングのJointに異常があったので、これらを問題ない環境でアニメーションを付けるようにこのようなToolを作りました。
 #### TrianglePolygonFinder
 - TrianglePolygonFinderツールはModelingの中にTriangleのPolygonを探して表示してくれるToolです。
@@ -16,9 +16,10 @@
 2. Scriptを実行させます。
 3. orientconstraintまで適用されているControllerがJointにConstraintされました。
 #### AutoControllerChaser
-1. 自分が使いたいFKControllerを一つ作ります。
-2. 作ったControllerとJointをSeletします。
-3. Scriptを実行させます。
+1. Controllerを付けたいJointをSelectします。
+2. Toolを実行させて付けたいControllerの形を選びます。
+3. 実行させたら、選択したJointにControllerが付いているのを確認します。
+4. F8でControllerを選択し形を変えてカスタマイズします。 
 (カスタマイズしたControllerは必ず(0,0,0)にいなければうまく起動しません)
 #### TrianglePolygonFinder
 1. TrianglePolygonを探したいModelingをSelectします。
