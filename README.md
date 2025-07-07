@@ -27,7 +27,8 @@
 4. Triangle Polygonと共有するEdgeを持っているPolygonを同時に見せてくれます。自動的にIsolateされますので直した後、Isolate seletを解除します。これでTirangle polygonをもっと簡単に直すことができます。
 ### Demo
 #### CreatFKContoller
-![Joint1](https://github.com/eeeeuci/Rigging/blob/main/img/Joint1.png)
+![Joint1](https://github.com/user-attachments/assets/02234775-4ccd-4b48-a307-f5ede2e37c86")
+![Joint2]()
 #### AutoControllerChaser
 
 #### TrianglePolygonFinder
